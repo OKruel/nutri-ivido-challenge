@@ -3,8 +3,6 @@ import { Meals } from '../models/mealsModel';
 
 const saveMealDB = async (req: Request, res: Response, next: NextFunction) => {
 
-    console.log('tes')
-
     if (!req.body) {
         throw new Error('Bad Request!')
     }
