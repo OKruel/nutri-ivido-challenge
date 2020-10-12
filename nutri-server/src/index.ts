@@ -3,7 +3,7 @@ import { app } from './app';
 
 const start = async () => {
 
-    const url = 'mongodb+srv://olavokruel:13579Foco@cluster0.tsel2.mongodb.net/nutrition?retryWrites=true&w=majority';
+    const url = '';
 
     mongoose.connect(url, {
         useNewUrlParser: true,
